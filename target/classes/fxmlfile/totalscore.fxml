@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo4.ScoreController">
+   <children>
+      <ImageView fitHeight="401.0" fitWidth="601.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="C:\Users\Guest1\IdeaProjects\demo4\src\main\resources\images\score.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="scorecard" alignment="CENTER" layoutX="262.0" layoutY="256.0" prefHeight="51.0" prefWidth="94.0" text="Label" textFill="#e9ef9c">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
